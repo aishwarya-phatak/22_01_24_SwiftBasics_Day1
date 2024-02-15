@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		683264C72B7C9092003E67FF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683264C62B7C9092003E67FF /* HomeViewController.swift */; };
 		683E04F42B79E8CE00E792B8 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E04F32B79E8CE00E792B8 /* Student.swift */; };
 		683E04F62B79F01E00E792B8 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E04F52B79F01E00E792B8 /* Bike.swift */; };
 		683E04F82B79F02600E792B8 /* Bike1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E04F72B79F02600E792B8 /* Bike1.swift */; };
+		6846B62A2B7DD6C20013AA5E /* BitcodeHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6846B6292B7DD6C20013AA5E /* BitcodeHomeViewController.swift */; };
 		686DBDE92B70ACF400D8979D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686DBDE82B70ACF400D8979D /* AppDelegate.swift */; };
 		686DBDEB2B70ACF400D8979D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686DBDEA2B70ACF400D8979D /* SceneDelegate.swift */; };
 		686DBDED2B70ACF400D8979D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686DBDEC2B70ACF400D8979D /* ViewController.swift */; };
@@ -19,9 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		683264C62B7C9092003E67FF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		683E04F32B79E8CE00E792B8 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		683E04F52B79F01E00E792B8 /* Bike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
 		683E04F72B79F02600E792B8 /* Bike1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike1.swift; sourceTree = "<group>"; };
+		6846B6292B7DD6C20013AA5E /* BitcodeHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcodeHomeViewController.swift; sourceTree = "<group>"; };
 		686DBDE52B70ACF400D8979D /* 22_01_24_SwiftBasics_Day1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 22_01_24_SwiftBasics_Day1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		686DBDE82B70ACF400D8979D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		686DBDEA2B70ACF400D8979D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				683E04F32B79E8CE00E792B8 /* Student.swift */,
 				683E04F52B79F01E00E792B8 /* Bike.swift */,
 				683E04F72B79F02600E792B8 /* Bike1.swift */,
+				683264C62B7C9092003E67FF /* HomeViewController.swift */,
+				6846B6292B7DD6C20013AA5E /* BitcodeHomeViewController.swift */,
 			);
 			path = 22_01_24_SwiftBasics_Day1;
 			sourceTree = "<group>";
@@ -151,7 +157,9 @@
 				686DBDE92B70ACF400D8979D /* AppDelegate.swift in Sources */,
 				683E04F82B79F02600E792B8 /* Bike1.swift in Sources */,
 				683E04F62B79F01E00E792B8 /* Bike.swift in Sources */,
+				6846B62A2B7DD6C20013AA5E /* BitcodeHomeViewController.swift in Sources */,
 				686DBDEB2B70ACF400D8979D /* SceneDelegate.swift in Sources */,
+				683264C72B7C9092003E67FF /* HomeViewController.swift in Sources */,
 				683E04F42B79E8CE00E792B8 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

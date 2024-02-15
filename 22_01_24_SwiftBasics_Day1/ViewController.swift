@@ -114,7 +114,6 @@ class ViewController: UIViewController {
         print("s1.name -- \(s1.name) ----- s1.roll -- \(s1.rollNumber)")
     }
     
-    
     func structureBasics1(){
         var bike2 = Bike(color: "Blue")
         var bike3 = bike2
