@@ -14,6 +14,28 @@ class BitcodeHomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("viewDidLoad of BVC called")
+        createUIThroughCode()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print("viewWillAppear of BVC Called")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("viewDidAppear of BVC called")
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        print("viewWillDisappear of BVC called")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        print("viewDidDisappear of BVC called")
+    }
+    
+    func createUIThroughCode(){
+        
         let rectFrame = CGRect(x: 50, y: 150, width: 200, height: 50)
         nameLabel = UILabel(frame: rectFrame)
         nameLabel.backgroundColor = .lightGray
@@ -33,11 +55,18 @@ class BitcodeHomeViewController: UIViewController {
         btn.setTitle("Click", for: .normal)
         btn.addTarget(self, action: #selector(btnClickAction), for: .touchUpInside)
         self.view.addSubview(btn)
+        
+        //self.view.frame.height        -- view height
+        //self.view.frame.width         -- view width
     }
     
     //objective c method
     @objc func btnClickAction(){
         let extractedNameFromTF = usernameTextField.text
         self.nameLabel.text = "Welcome To" + extractedNameFromTF!
+        
+        let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        
+        self.navigationController?.pushViewController(homeViewController, animated: true)
     }
 }
